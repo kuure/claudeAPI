@@ -63,6 +63,7 @@ struct ContentView: View {
     // send message to the AI endpoint
     func sendMessage() async {
         
+        // set the value of prompt to the userMessage from above
         let prompt = userMessage
         userMessage = ""
         response = ""
